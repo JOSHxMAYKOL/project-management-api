@@ -43,7 +43,7 @@ sequelize.authenticate()
 io.on('connection', (socket) => {
   console.log('Nuevo usuario conectado');
 
-  // Escuchar cuando un cliente se desconecta
+ 
   socket.on('disconnect', () => {
     console.log('Usuario desconectado');
   });
